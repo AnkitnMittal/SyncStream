@@ -1,0 +1,29 @@
+# 1. Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# 2. Environment Variables & Secrets
+.env
+.env.*
+*.pem
+
+# 3. Git
+.git/
+.gitignore
+
+# 4. Build Outputs
+build/
+dist/
+coverage/
+
+# 5. IDE and OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 6. Docker-related files
+Dockerfile
+.dockerignore
+docker-compose.yml
